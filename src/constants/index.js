@@ -6,6 +6,7 @@ import project5 from "../assets/projects/Wine.png";
 import project6 from "../assets/projects/Real-State.png";
 import project7 from "../assets/projects/BlueStone.png";
 import project8 from "../assets/projects/Shoes.png";
+import project9 from "../assets/projects/Hotel.png"
 
 export const HERO_CONTENT = `I'm a passionate Frontend Developer with a sharp eye for design and a love for clean, scalable code. I specialize in building responsive, user-friendly web interfaces using React, Vite, Tailwind CSS, HTML, CSS, and JavaScript. Whether it's crafting pixel-perfect layouts or debugging deployment issues, I thrive on turning ideas into elegant digital experiences.`;
 
@@ -21,18 +22,25 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Vite","Firebase"],
   },
   {
-    title: "E-Commerce Website ",
-    image: project2,
-    description:
-      "A fully responsive frontend clone of Bluestone’s jewelry website, built using HTML, CSS and JavaScript. This project replicates the elegant UI and smooth user experience of a modern e-commerce platform, optimized for both desktop and mobile devices.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-  },
-  {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Vite", "Tailwind CSS"],
+  },
+   {
+    title: "Luxury Hotel Website",
+    image: project9,
+    description:
+      "A sleek, responsive luxury hotel website built using React, Vite, HTML and CSS designed to showcase premium accommodations, amenities, and booking features with a modern UI/UX.",
+    technologies: ["HTML", "CSS", "JavaScript","React", "Vite"],
+  },
+   {
+    title: "E-Commerce Website ",
+    image: project2,
+    description:
+      "A fully responsive frontend clone of Bluestone’s jewelry website, built using HTML, CSS and JavaScript. This project replicates the elegant UI and smooth user experience of a modern e-commerce platform, optimized for both desktop and mobile devices.",
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
   {
     title: "Luxury Car Rental",
