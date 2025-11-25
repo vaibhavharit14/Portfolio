@@ -1,5 +1,5 @@
 import project1 from "../assets/projects/Netflix.jpeg";
-import project2 from "../assets/projects/E-comm.png";
+import project2 from "../assets/projects/E-Comm.png";
 import project3 from "../assets/projects/Portfolio.png";
 import project4 from "../assets/projects/Car.jpg";
 import project5 from "../assets/projects/Wine.png";
