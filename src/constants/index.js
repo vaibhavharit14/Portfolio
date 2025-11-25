@@ -6,6 +6,7 @@ import project5 from "../assets/projects/Wine.png";
 import project6 from "../assets/projects/Real-State.png";
 import project7 from "../assets/projects/BlueStone.png";
 import project8 from "../assets/projects/Shoes.png";
+import project9 from "../assets/projects/Hotel.png";
 
 export const HERO_CONTENT = `I'm a passionate Frontend Developer with a sharp eye for design and a love for clean, scalable code. I specialize in building responsive, user-friendly web interfaces using React, Vite, Tailwind CSS, HTML, CSS, and JavaScript. Whether it's crafting pixel-perfect layouts or debugging deployment issues, I thrive on turning ideas into elegant digital experiences.`;
 
@@ -20,12 +21,19 @@ export const PROJECTS = [
       "A complete Netflix-inspired web application built using React, Tailwind CSS, and Vite, featuring Firebase Authentication, real-time database, and movie data fetched from TMDB API. This project replicates core Netflix functionality with a polished UI and secure backend logic.",
     technologies: ["HTML", "CSS", "React", "Vite","Firebase"],
   },
+   {
+    title: "Luxury Hotel Booking",
+    image: project9,
+    description:
+      "Experience luxury and comfort with our curated suites and rooms, designed for elegance and convenience. Book seamlessly with modern amenities like daily cleaning, home service, Wi‑Fi, and parking — all at your fingertips.",
+    technologies: ["HTML", "CSS","JavaScript", "React", "Vite"],
+  },
   {
     title: "E-Commerce Website ",
     image: project2,
     description:
       "A fully responsive frontend clone of Bluestone’s jewelry website, built using HTML, CSS and JavaScript. This project replicates the elegant UI and smooth user experience of a modern e-commerce platform, optimized for both desktop and mobile devices.",
-    technologies: ["HTML", "CSS", "JavaScript"],
+    technologies: ["HTML", "CSS", "JavaScript","React" ],
   },
   {
     title: "Portfolio Website",
@@ -72,7 +80,6 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  // address: "H.No.10 Behind Hotel Raj Palace Neemuch(MP)",
   phoneNo: "+91 8463875285 ",
   email: "v.harit14@gmail.com",
 };
