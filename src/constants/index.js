@@ -7,6 +7,7 @@ import project6 from "../assets/projects/Real-State.png";
 import project7 from "../assets/projects/BlueStone.png";
 import project8 from "../assets/projects/Shoes.png";
 import project9 from "../assets/projects/Hotel.png";
+import { link } from "framer-motion/client";
 
 export const HERO_CONTENT = `I'm a passionate Frontend Developer with a sharp eye for design and a love for clean, scalable code. I specialize in building responsive, user-friendly web interfaces using React, Vite, Tailwind CSS, HTML, CSS, and JavaScript. Whether it's crafting pixel-perfect layouts or debugging deployment issues, I thrive on turning ideas into elegant digital experiences.`;
 
@@ -20,6 +21,7 @@ export const PROJECTS = [
     description:
       "A complete Netflix-inspired web application built using React, Tailwind CSS, and Vite, featuring Firebase Authentication, real-time database, and movie data fetched from TMDB API. This project replicates core Netflix functionality with a polished UI and secure backend logic.",
     technologies: ["HTML", "CSS", "React", "Vite","Firebase"],
+    link:"https://netflix-clone-beta-rouge-45.vercel.app",
   },
    {
     title: "Luxury Hotel Booking",
@@ -27,12 +29,13 @@ export const PROJECTS = [
     description:
       "Experience luxury and comfort with our curated suites and rooms, designed for elegance and convenience. Book seamlessly with modern amenities like daily cleaning, home service, Wi‑Fi, and parking — all at your fingertips.",
     technologies: ["HTML", "CSS","JavaScript", "React", "Vite"],
+    link:"https://vaibhavharit14.github.io/Luxury-Hotel-Booking/",
   },
   {
     title: "E-Commerce Website ",
     image: project2,
     description:
-      "A fully responsive frontend clone of Bluestone’s jewelry website, built using HTML, CSS and JavaScript. This project replicates the elegant UI and smooth user experience of a modern e-commerce platform, optimized for both desktop and mobile devices.",
+      "This is a modern, responsive e-commerce website built with React ,HTML and CSS, showcasing a curated collection of limited edition watches. Designed for exclusivity and elegance, the site offers a seamless shopping experience with dynamic cart functionality, product detail views, and stylish animations.",
     technologies: ["HTML", "CSS", "JavaScript","React" ],
   },
   {
@@ -41,6 +44,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Vite", "Tailwind CSS"],
+    link:"https://portfolio-weld-beta-14.vercel.app/",
   },
   {
     title: "Luxury Car Rental",
@@ -48,6 +52,7 @@ export const PROJECTS = [
     description:
       "Developed a sleek and responsive luxury car rental website using HTML, CSS, and JavaScript, allowing users to browse and select premium vehicles based on their preferences.",
     technologies: ["HTML", "CSS", "JavaScript"],
+    link:" https://vaibhavharit14.github.io/Luxury-Car-Rental/",
   },
   {
     title: "Louise XIII ",
@@ -55,6 +60,7 @@ export const PROJECTS = [
     description:
       "This is a premium alcoholic beverage website clone of Louis XIII, developed using HTML, CSS, and JavaScript.",
     technologies: ["HTML", "CSS", "JavaScript"],
+    link:"https://vaibhavharit14.github.io/Wine-LouisXIII-Clone/wine.html",
   },
   {
     title: "RealState",
@@ -62,6 +68,7 @@ export const PROJECTS = [
     description:
       "A responsive and modern web application for browsing rental properties, built using HTML ,CSS and JAVASCRIPT. This project simulates a real-world real estate platform, allowing users to explore available houses, view detailed listings, and filter results based on location, price, and amenities.",
     technologies: ["HTML", "CSS", "JavaScript"],
+    link:"https://vaibhavharit14.github.io/RealState/",
   },
   {
     title: "BlueStone Clone",
@@ -69,6 +76,7 @@ export const PROJECTS = [
     description:
       "A responsive frontend clone of the Bluestone jewelry website built using HTML, CSS, and JavaScript. This project recreates the look and feel of the original site, including product sections, navigation menus, and interactive UI elements.",
     technologies: ["HTML", "CSS", "JavaScript"],
+    link:"https://vaibhavharit14.github.io/BlueStone-Clone/",
   },
   {
     title: "Shoes website",
@@ -76,6 +84,7 @@ export const PROJECTS = [
     description:
       "An interactive footwear e-commerce website built with HTML,CSS and JavaScript. Designed to be responsive across devices with engaging UI components.",
     technologies: ["HTML", "CSS", "JavaScript"],
+    link:"https://vaibhavharit14.github.io/Shoes-Project/",
   }
 ];
 
