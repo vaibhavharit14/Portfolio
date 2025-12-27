@@ -9,7 +9,7 @@ import project8 from "../assets/projects/Shoes.png";
 import project9 from "../assets/projects/Hotel.png";
 import { link } from "framer-motion/client";
 
-export const HERO_CONTENT = `I'm a passionate Frontend Developer with a sharp eye for design and a love for clean, scalable code. I specialize in building responsive, user-friendly web interfaces using React, Vite, Tailwind CSS, HTML, CSS, and JavaScript. Whether it's crafting pixel-perfect layouts or debugging deployment issues, I thrive on turning ideas into elegant digital experiences.`;
+export const HERO_CONTENT = `I'm a passionate Full-Stack Developer with a sharp eye for design and a love for clean, scalable code. I specialize in building responsive, user-friendly web interfaces using React, Vite, Tailwind CSS, HTML, CSS, and JavaScript, while also architecting robust backend systems with Node.js, Express, TypeScript, and PostgreSQL.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile Frontend developer with a passion for creating efficient and user-friendly web applications.I have worked with a variety of technologies, including React, Vite, Jquary, BootStrap, Firebass, and API. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 

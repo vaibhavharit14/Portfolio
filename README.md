@@ -15,5 +15,4 @@ Tech Stack
 - Tailwind CSS**
 - JavaScript (ES6+)
 
-View :- https://vaibhavharit14.github.io/Portfolio/
 Vercel Deploy :- https://portfolio-weld-beta-14.vercel.app/
