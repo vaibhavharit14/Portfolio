@@ -7,6 +7,10 @@ import project6 from "../assets/projects/Real-State.png";
 import project7 from "../assets/projects/BlueStone.png";
 import project8 from "../assets/projects/Shoes.png";
 import project9 from "../assets/projects/Hotel.png";
+import project10 from "../assets/projects/task.png";
+import project11 from "../assets/projects/budgetbox.png";
+import project12 from "../assets/projects/softdef.png";
+import project13 from "../assets/projects/signature.png";
 import { link } from "framer-motion/client";
 
 export const HERO_CONTENT = `I'm a passionate Full-Stack Developer with a sharp eye for design and a love for clean, scalable code. I specialize in building responsive, user-friendly web interfaces using React, Vite, Tailwind CSS, HTML, CSS, and JavaScript, while also architecting robust backend systems with Node.js, Express, TypeScript, and PostgreSQL.`;
@@ -15,6 +19,49 @@ export const ABOUT_TEXT = `I am a dedicated and versatile Frontend developer wit
 
 
 export const PROJECTS = [
+  {
+  title: "Task Manager",
+  image: project10,
+  description:
+    "Plan, assign, and track tasks in real time with a clean, modular UI. Live updates via sockets, role-based access, and robust validation keep teams aligned and productive.",
+  technologies: ["HTML", "CSS", "JavaScript", "React", "TypeScript", "Vite", "Node.js", "Express", "PostgreSQL", "Socket.io"],
+  link: "https://task-manager-orpin-five.vercel.app/",
+},
+
+{
+  title: "BudgetBox",
+  image: project11,
+  description:
+    "Nord-themed, DigiLocker-style budgeting app to manage expenses, savings, and categories. Smooth UX, instant calculations, and export-ready views for clean financial tracking.",
+  technologies: ["HTML", "CSS", "JavaScript", "React", "Vite", "Tailwind CSS"],
+  link: "https://budget-box-8ssa.vercel.app/login ",
+},
+
+{
+  title: "SoftDef Frontend UI/UX",
+  image: project12,
+  description:
+    "A polished, accessibility-compliant component library with Figma-backed design specs. Modular layouts, ARIA-friendly patterns, and performance-focused interactions for enterprise-grade UIs.",
+  technologies: ["HTML", "CSS", "JavaScript", "React", "TypeScript", "Vite", "Tailwind CSS"],
+  link: "https://softdef-test-peach.vercel.app",
+},
+{
+  title: "Signature Injection Engine",
+  image: project13,
+  description:
+    "A recruiter‑grade MERN application that securely injects digital signatures into PDF documents. Features include coordinate‑based placement, audit trails, role‑based authentication, and seamless file management — designed for enterprise workflows and compliance.",
+  technologies: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MongoDB", "Mongoose", "JWT", "PDF.js"],
+  link: "https://signature-injection-engine-five.vercel.app/",
+},
+
+// {
+//   title: "Auth Dashboard",
+//   image: project13,
+//   description:
+//     "Secure, audit-ready authentication with JWT, role-based dashboards, and activity logs. Clean forms, error validation, and protected routes for a reliable admin experience.",
+//   technologies: ["HTML", "CSS", "JavaScript", "React", "TypeScript", "Vite", "Node.js", "Express", "MongoDB", "JWT"],
+//   link: "https://your-deploy-url.com/auth-dashboard",
+// },
   {
     title: "Netflix-Clone",
     image: project1,

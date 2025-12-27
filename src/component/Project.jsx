@@ -1,8 +1,12 @@
 import React from "react";
 import { PROJECTS } from "../constants";
 import { motion } from "framer-motion";
+import { useState } from "react";
+import { FaArrowDown, FaArrowUp } from "react-icons/fa";
 
 const Project = () => {
+  const [visibleCount, setVisibleCount] = useState(6);
+
   return (
     <div className="pb-4">
       <motion.h2
@@ -14,7 +18,7 @@ const Project = () => {
         Project
       </motion.h2>
       <div>
-        {PROJECTS.map((project, index) => (
+        {PROJECTS.slice(0, visibleCount).map((project, index) => (
           <motion.div 
             key={index} 
             className="mb-8 flex flex-wrap lg:justify-center group"
@@ -56,6 +60,26 @@ const Project = () => {
             </motion.div>
           </motion.div>
         ))}
+      </div>
+      
+      <div className="flex justify-center mt-12 w-full">
+        <motion.button
+          onClick={() => setVisibleCount(visibleCount === 6 ? PROJECTS.length : 6)}
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+          transition={{ type: "spring", stiffness: 400, damping: 10 }}
+          className="flex items-center gap-2 px-6 py-3 bg-stone-900 text-stone-300 rounded-full font-semibold border border-stone-700 hover:bg-stone-800 hover:text-white transition-colors duration-300 shadow-lg cursor-pointer"
+        >
+            {visibleCount === 6 ? (
+              <>
+                Show More <FaArrowDown />
+              </>
+            ) : (
+              <>
+                Show Less <FaArrowUp />
+              </>
+            )}
+        </motion.button>
       </div>
     </div>
   );
