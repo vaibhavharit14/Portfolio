@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
 import { FaSquareXTwitter } from 'react-icons/fa6'
+import { motion } from 'framer-motion'
 
 const Navbar = () => {
   return (
@@ -10,22 +11,26 @@ const Navbar = () => {
 
       {/* Social Icons aligned to the right */}
       <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-        <a
+        <motion.a
           href='https://www.linkedin.com/feed/'
           target='_blank'
           rel='noopener noreferrer'
           aria-label='LinkedIn'
+          whileHover={{ scale: 1.2, color: '#0077b5' }}
+          transition={{ type: 'spring', stiffness: 300 }}
         >
           <FaLinkedin />
-        </a>
-        <a
+        </motion.a>
+        <motion.a
           href='https://github.com/vaibhavharit14'
           target='_blank'
           rel='noopener noreferrer'
           aria-label='GitHub'
+          whileHover={{ scale: 1.2, color: '#ffffff' }}
+          transition={{ type: 'spring', stiffness: 300 }}
         >
           <FaGithub />
-        </a>
+        </motion.a>
         {/* <a
           href='https://www.instagram.com'
           target='_blank'

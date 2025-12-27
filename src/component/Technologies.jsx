@@ -26,8 +26,8 @@ const Technologies = () => {
       className='bg-gradient-to-r from-stone-100 to-stone-600 bg-clip-text text-transparent my-20 text-center text-4xl font-bold'>Technologies</motion.h2>
       <motion.div
        whileInView={{opacity:1, x:0}}
-      initial={{opacity:0,x:-100}}
-      transition={{duration:1.5}}
+       initial={{opacity:0,x:-100}}
+       transition={{duration:1.5, staggerChildren: 0.2}}
        className='flex flex-wrap justify-center  items-center gap-4'>
         <motion.div
         initial="initial"

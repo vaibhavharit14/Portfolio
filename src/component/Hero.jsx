@@ -10,7 +10,7 @@ const containerVariants = {
     x: 0,
     transition: {
       duration: 0.5,
-      straggerChildern: 0.5,
+      staggerChildren: 0.5,
     },
   },
 };
@@ -51,9 +51,24 @@ const Hero = () => {
             </motion.h2>
             <motion.span
               variants={chlidVariants}
-              className=" bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent"
+              className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent"
             >
-              Full Stack Developer
+              {[..."Full Stack Developer"].map((char, index) => (
+                <motion.span
+                  key={index}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{
+                    duration: 0.1,
+                    delay: index * 0.1,
+                    repeat: Infinity,
+                    repeatType: "reverse",
+                    repeatDelay: 5
+                  }}
+                >
+                  {char}
+                </motion.span>
+              ))}
             </motion.span>
             <motion.p
               variants={chlidVariants}
