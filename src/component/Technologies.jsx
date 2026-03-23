@@ -2,7 +2,7 @@ import React from 'react'
 import { RiReactjsLine } from 'react-icons/ri'
 import { TbBrandTailwind } from 'react-icons/tb'
 import { SiHtml5, SiCss3, SiJavascript, SiJquery, SiBootstrap } from 'react-icons/si'
-import {animate, inertia, motion} from 'framer-motion'
+import { motion } from 'framer-motion'
 
 const iconVariants =(duration) =>({
   initial:{y:-10},

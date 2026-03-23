@@ -12,7 +12,7 @@ import project11 from "../assets/projects/budgetbox.png";
 import project12 from "../assets/projects/softdef.png";
 import project13 from "../assets/projects/signature.png";
 import project14 from "../assets/projects/shopping.png";
-import { link } from "framer-motion/client";
+
 
 export const HERO_CONTENT = `I'm a passionate Full-Stack Developer with a sharp eye for design and a love for clean, scalable code. I specialize in building responsive, user-friendly web interfaces using React, Vite, Tailwind CSS, HTML, CSS, and JavaScript, while also architecting robust backend systems with Node.js, Express, TypeScript, and PostgreSQL.`;
 
@@ -21,7 +21,7 @@ export const ABOUT_TEXT = `I am a dedicated and versatile Frontend developer wit
 
 export const PROJECTS = [
   {
-  title: "Task Manager",
+  title: "E-Commerce Website",
   image: project14,
   description:
     "A modern full‑stack shopping website built with React, Node.js, Express, and MongoDB. Features include secure authentication, product listings with filters, cart & checkout, payment integration (Stripe), and an admin dashboard with order management. Responsive UI powered by Tailwind CSS.",
