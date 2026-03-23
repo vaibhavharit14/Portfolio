@@ -25,7 +25,7 @@ export const PROJECTS = [
   image: project14,
   description:
     "A modern full‑stack shopping website built with React, Node.js, Express, and MongoDB. Features include secure authentication, product listings with filters, cart & checkout, payment integration (Stripe), and an admin dashboard with order management. Responsive UI powered by Tailwind CSS.",
-  technologies: ["HTML", "Tailwind CSS", "JavaScript", "React", "TypeScript", "Vite", "Node.js", "Express","MongoDB","Helmet.js"," Express Rate Limit"," JWT-based Authentication"],
+  technologies: ["HTML", "Tailwind CSS", "JavaScript", "React", "TypeScript", "Vite", "Node.js", "Express","MongoDB","Helmet.js","Express Rate Limit","JWT-based Authentication"],
   link: "https://shopping-e-commerce-website-brown.vercel.app/",
 },
   {

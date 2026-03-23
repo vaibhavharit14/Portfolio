@@ -49,14 +49,16 @@ const Project = () => {
             >
               <a href={project.link} target="_blank" rel="noopener noreferrer"><h3 className="mb-2 font-semibold text-2xl group-hover:text-blue-400 transition-colors">{project.title}</h3></a>  
               <p className="mb-4 text-stone-400">{project.description}</p>
-              {project.technologies.map((tech, index) => (
-                <span
-                  className="mr-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300 group-hover:bg-stone-800 transition-colors"
-                  key={index}
-                >
-                  {tech}
-                </span>
-              ))}
+              <div className="flex flex-wrap mt-4">
+                {project.technologies.map((tech, index) => (
+                  <span
+                    className="mr-2 mb-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300 group-hover:bg-stone-800 transition-colors whitespace-nowrap"
+                    key={index}
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
             </motion.div>
           </motion.div>
         ))}
