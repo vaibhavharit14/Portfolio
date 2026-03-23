@@ -11,7 +11,7 @@ import project10 from "../assets/projects/task.png";
 import project11 from "../assets/projects/budgetbox.png";
 import project12 from "../assets/projects/softdef.png";
 import project13 from "../assets/projects/signature.png";
-import project14 from "../assets/projects/shopping.png";
+import project14 from "../assets/projects/Shopping.png";
 
 
 export const HERO_CONTENT = `I'm a passionate Full-Stack Developer with a sharp eye for design and a love for clean, scalable code. I specialize in building responsive, user-friendly web interfaces using React, Vite, Tailwind CSS, HTML, CSS, and JavaScript, while also architecting robust backend systems with Node.js, Express, TypeScript, and PostgreSQL.`;
